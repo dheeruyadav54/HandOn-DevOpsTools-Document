@@ -11,5 +11,5 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 - Jenkins Fundamental handsOn Document
 
 **Gitlab Folder Contains:**
-- Coming Soon
+- Gitlab Fundamentals Hands On Document
 
