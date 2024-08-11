@@ -10,9 +10,6 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 - Coming Soon
 
 
-
-========
-
 ## Jenkins Folder Contains
 - Jenkins Fundamental handsOn Document
 
@@ -54,7 +51,6 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 - Trigger Pipeline from github Jenkins file
 
 
-========
 
 ## Gitlab Folder Contains:**
 - Gitlab Fundamentals Hands On Document & **Toipc covered**
