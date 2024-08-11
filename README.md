@@ -10,7 +10,7 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 - Coming Soon
 
 
-## Jenkins Fundamental handsOn Document
+## Jenkins Fundamental handsOn Document Contains
 
 - Step -1 Update the ubuntu index by using update command
 - Jenkins Document Link
@@ -51,8 +51,7 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 
 
 
-## Gitlab Folder Contains
-- Gitlab Fundamentals Hands On Document & **Toipc covered**
+## Gitlab Fundamentals Hands On Document Contains
 
 - Table of Contents:
 - Step-1 : Gitlab Account
