@@ -7,7 +7,21 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 
 
 ## Docker Folder Contains
-- Coming Soon
+
+- Step -1 : Update the ubuntu index by using update command
+- Step-3 : Verify the docker Version by running
+- Step-4 : Pull the Public docker image from dockerHub
+- Step-5 : Run the Mysql Container from the pulled image.
+- Step-6 : Run the nginx Container from the pulled image.
+- Projects :
+- JAVA Project
+- NodeJs Project
+- Python-Flask Project
+- two-tier Project
+- Docker Compose
+- Multi-Stage docker build:
+- Docker scout
+
 
 
 ## Jenkins Fundamental handsOn Document Contains
