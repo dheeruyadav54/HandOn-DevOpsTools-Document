@@ -52,7 +52,7 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 
 
 
-## Gitlab Folder Contains:**
+## Gitlab Folder Contains
 - Gitlab Fundamentals Hands On Document & **Toipc covered**
 
 - Table of Contents:
