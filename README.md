@@ -3,17 +3,11 @@
 Created this Repository to share the HandsOn Document, which will help everyone to learn DevOps tools in a easy way.
 
 
-
-**Here are the HandsOn Document you can expect in this Repo:**
-
+## Here are the HandsOn Document you can expect in this Repo
 
 
-
-**Docker Folder Contains:**
+## Docker Folder Contains:**
 - Coming Soon
-
-
-
 
 
 
@@ -60,12 +54,9 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 - Trigger Pipeline from github Jenkins file
 
 
-
-
-
 ========
 
-**Gitlab Folder Contains:**
+## Gitlab Folder Contains:**
 - Gitlab Fundamentals Hands On Document & **Toipc covered**
 
 - Table of Contents:
