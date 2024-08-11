@@ -15,8 +15,8 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 
 **Toipc covered**
 
-Table of Contents:
-Step-1 : Gitlab Account
+- Table of Contents:
+- Step-1 : Gitlab Account
 Step-2 : Create a Group & Project
 Create a New Group
 Create a New Project
