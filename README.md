@@ -1,6 +1,6 @@
 # HandOnDocument
 
-** Created this Repository to share the HandsOn Document, which will help everyone to learn DevOps tools in a easy way **
+Created this Repository to share the HandsOn Document, which will help everyone to learn DevOps tools in a easy way
 
 
 ## Here are the HandsOn Document you can expect in this Repo
@@ -10,8 +10,7 @@
 - Coming Soon
 
 
-## Jenkins Folder Contains
-- Jenkins Fundamental handsOn Document
+## Jenkins Fundamental handsOn Document
 
 - Step -1 Update the ubuntu index by using update command
 - Jenkins Document Link
