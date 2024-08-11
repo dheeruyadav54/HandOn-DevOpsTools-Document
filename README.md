@@ -10,6 +10,43 @@ Created this Repository to share the HandsOn Document, which will help everyone 
 **Jenkins Folder Contains:**
 - Jenkins Fundamental handsOn Document
 
+- Step -1 Update the ubuntu index by using update command
+- Jenkins Document Link
+- Step -2 Use the Long term Support Release Command to install the Jenkins.
+- Step -3 Login to Jenkins URL with Default Port 8080
+- Jenkins Initial Administrator Password
+- Step -4 Setting up Jenkins
+- Jenkins Installation has started
+- Jenkins has been installed successfully
+- Step -5 Create a Jenkins Pipeline
+- General Template Form
+- Build Triggers
+- Pipeline
+- Success
+- Failure
+- Step -6 Setting Up the Agent
+- Generate SSH Key
+- Install JAVA
+- Add the Agent
+- Agent Status
+- Agent Offline
+- Step -7 Build More Pipelines
+- Pipeline Structure
+- Build the pipeline
+- Pipeline Failed-1
+- Solution1
+- Pipeline Failed-2
+- Solution2
+- Verify the Build
+- Step -8  Credential Binding & Image Pushed to DockerHub
+- Generate the Personal Access Token on Docker Hub
+- Build the Docker Compose pipeline
+- Pipeline Succeed
+- Step -9  Jenkins Webhook
+- Webhook Connection Status & build Tgigger Config
+- Commit to Trigger Webhook
+- Trigger Pipeline from github Jenkins file
+
 
 
 
