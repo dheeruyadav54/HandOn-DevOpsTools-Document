@@ -1,110 +1,217 @@
-# HandOnDocument
+# 🚀 DevOps Tools - Hands-On Documentation
 
-Created this Repository to share the HandsOn Document, which will help everyone to learn DevOps tools in a easy way
+> A comprehensive collection of practical guides and tutorials to master essential DevOps tools through hands-on learning.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dheeraj-yadav-77180139/)
+![Profile Views](https://komarev.com/ghpvc/?username=dheeruyadav54&style=flat-square&color=blue)
 
-## Here are the HandsOn Document you can expect in this Repo
+---
 
+## 📋 Table of Contents
 
-## Docker Folder Contains
+- [Overview](#overview)
+- [Docker](#-docker)
+- [Jenkins](#-jenkins)
+- [GitLab CI/CD](#-gitlab-cicd)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [Connect](#connect)
 
-- Step -1 : Update the ubuntu index by using update command
-- Step-3 : Verify the docker Version by running
-- Step-4 : Pull the Public docker image from dockerHub
-- Step-5 : Run the Mysql Container from the pulled image.
-- Step-6 : Run the nginx Container from the pulled image.
-- Projects :
-- JAVA Project
-- NodeJs Project
-- Python-Flask Project
-- two-tier Project
-- Docker Compose
-- Multi-Stage docker build:
-- Docker scout
+---
 
+## Overview
 
+This repository provides step-by-step documentation for learning and implementing popular DevOps tools. Each section includes practical examples, real-world projects, and troubleshooting guides.
 
-## Jenkins Fundamental handsOn Document Contains
+---
 
-- Step -1 Update the ubuntu index by using update command
-- Jenkins Document Link
-- Step -2 Use the Long term Support Release Command to install the Jenkins.
-- Step -3 Login to Jenkins URL with Default Port 8080
-- Jenkins Initial Administrator Password
-- Step -4 Setting up Jenkins
-- Jenkins Installation has started
-- Jenkins has been installed successfully
-- Step -5 Create a Jenkins Pipeline
-- General Template Form
-- Build Triggers
-- Pipeline
-- Success
-- Failure
-- Step -6 Setting Up the Agent
-- Generate SSH Key
-- Install JAVA
-- Add the Agent
-- Agent Status
-- Agent Offline
-- Step -7 Build More Pipelines
-- Pipeline Structure
-- Build the pipeline
-- Pipeline Failed-1
-- Solution1
-- Pipeline Failed-2
-- Solution2
-- Verify the Build
-- Step -8  Credential Binding & Image Pushed to DockerHub
-- Generate the Personal Access Token on Docker Hub
-- Build the Docker Compose pipeline
-- Pipeline Succeed
-- Step -9  Jenkins Webhook
-- Webhook Connection Status & build Tgigger Config
-- Commit to Trigger Webhook
-- Trigger Pipeline from github Jenkins file
+## 🐳 Docker
 
+### Core Concepts
+- **Installation & Setup**
+  - Update Ubuntu package index
+  - Install Docker Engine
+  - Verify Docker installation
 
+### Container Management
+- Pull images from Docker Hub
+- Run MySQL containers
+- Deploy Nginx containers
 
-## Gitlab Fundamentals Hands On Document Contains
+### Projects & Advanced Topics
+- ☕ **Java Application** - Containerize Java applications
+- 🟢 **Node.js Application** - Build and deploy Node.js apps
+- 🐍 **Python Flask** - Flask application containerization
+- 🏗️ **Two-Tier Architecture** - Multi-container application setup
 
-- Table of Contents:
-- Step-1 : Gitlab Account
-- Step-2 : Create a Group & Project
-- Create a New Group
-- Create a New Project
-- Demo Pipeline
-- Parallel Jobs
-- Step-3: Variables Types
-- Predefined variables
-- Predefined CI/CD Variables Reference
-- User Defined Variables:
-- (a) Project Level Variable Define:
-- Generate the Personal Access Token on Docker Hub
-- (b) Group Level Variable Define:
-- Step-4 Gitlab Runners
-- Install the Gitlab Runner
-- Gitlab runner status
-- Gitlab runner Service status
-- Register the Gitlab Runner
-- Step-5:  Project Import from
-- SSH Key-Gen on EC2 Machine
-- Add the Public Key to Gitlab Account
-- Step-6 Run the Pipeline
-- Things to keep in Mind
-- Successful Pipeline:
-- Build Job:
-- Push Job:
-- Deploy Job:
-- Step-7 Artifacts
-- Pipeline Config with Artifacts
+### Advanced Docker
+- **Docker Compose** - Multi-container orchestration
+- **Multi-Stage Builds** - Optimize image size and security
+- **Docker Scout** - Security scanning and vulnerability detection
 
+---
 
+## 🔧 Jenkins
 
-<div id="badges">
-<div id="badges">
-  <a href="https://www.linkedin.com/in/dheeraj-yadav-77180139/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  
-<img src="https://komarev.com/ghpvc/?username=dheeruyadav54&style=flat-square&color=blue" alt=""/>
+### Getting Started
+1. **Installation**
+   - Update system packages
+   - Install Jenkins LTS (Long Term Support)
+   - Access Jenkins UI (default port: 8080)
+   - Retrieve initial admin password
+
+2. **Initial Configuration**
+   - Complete setup wizard
+   - Install recommended plugins
+   - Create admin user
+
+### Pipeline Development
+- **Creating Pipelines**
+  - General configuration
+  - Build triggers setup
+  - Pipeline syntax and structure
+  - Success/failure handling
+
+### Agent Configuration
+- Generate SSH keys
+- Install Java on agent nodes
+- Register and configure agents
+- Monitor agent status
+- Troubleshoot offline agents
+
+### Advanced Features
+- **Credential Management**
+  - Credential binding
+  - Docker Hub integration
+  - Personal Access Token (PAT) setup
+
+- **Docker Integration**
+  - Build Docker images
+  - Push to Docker Hub
+  - Docker Compose pipelines
+
+- **Automation**
+  - GitHub webhooks
+  - Automated builds on commit
+  - Jenkinsfile from SCM
+
+### Troubleshooting
+- Common pipeline failures and solutions
+- Build verification techniques
+- Debug strategies
+
+---
+
+## 🦊 GitLab CI/CD
+
+### Account & Project Setup
+1. **Getting Started**
+   - Create GitLab account
+   - Set up groups and projects
+   - Understand project structure
+
+2. **Pipeline Basics**
+   - Demo pipeline creation
+   - Parallel job execution
+   - Pipeline visualization
+
+### Variables & Configuration
+- **Predefined Variables**
+  - Built-in CI/CD variables
+  - Variable reference guide
+
+- **Custom Variables**
+  - Project-level variables
+  - Group-level variables
+  - Docker Hub PAT integration
+
+### GitLab Runners
+- **Installation & Setup**
+  ```bash
+  # Install GitLab Runner
+  # Check runner status
+  # Verify service status
+  ```
+- **Registration**
+  - Register runners with GitLab
+  - Configure executor types
+  - Tag management
+
+### Project Management
+- **Import Projects**
+  - Generate SSH keys on EC2
+  - Add public keys to GitLab
+  - Import from external repositories
+
+### Pipeline Execution
+- **Best Practices**
+  - Pipeline configuration tips
+  - Job dependencies
+  - Stage management
+
+- **Job Types**
+  - Build jobs
+  - Push jobs
+  - Deploy jobs
+
+### Artifacts
+- Artifact generation
+- Artifact storage and retrieval
+- Pipeline configuration with artifacts
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Ubuntu/Linux system (recommended)
+- Basic command-line knowledge
+- Git installed
+- Internet connection
+
+### Quick Start
+
+1. **Clone this repository**
+```bash
+git clone https://github.com/dheeruyadav54/HandOn-DevOpsTools-Document.git
+```
+
+2. **Navigate to the tool you want to learn**
+```bash
+cd HandOn-DevOpsTools-Document
+```
+
+3. **Follow the step-by-step guides** in each folder
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have improvements or additional guides:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-guide`)
+3. Commit your changes (`git commit -m 'Add new guide'`)
+4. Push to the branch (`git push origin feature/new-guide`)
+5. Open a Pull Request
+
+---
+
+## 📞 Connect
+
+**Dheeraj Yadav**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dheeraj-yadav-77180139/)
+
+---
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+---
+
+<div align="center">
+  <p>⭐ Star this repository if you find it helpful!</p>
+  <p>Made with ❤️ for the DevOps Community</p>
 </div>
